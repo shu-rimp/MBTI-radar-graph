@@ -69,7 +69,7 @@ def saveMBTItoFig(name):
     plt.show()
     plt.draw()
     figname = name + '.png'
-    fig.savefig(figname, dpi = 1000)
+    fig.savefig(figname, dpi = 100)
 
 
 try:
