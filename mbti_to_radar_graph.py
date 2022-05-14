@@ -46,7 +46,7 @@ N = len(mbtiList)
 
 def saveMBTItoFig(name):
     df= None
-    df= pd.read_csv('C:/Users/suzi/Downloads/MBTI.csv', encoding = 'euc-kr')
+    df= pd.read_csv('C:/Users/suzi/Downloads/MBTI.csv', encoding = 'utf-8')
     df= df[['NAME','E','N','T','J','I','S','F','P']]
     df.set_index('NAME', inplace = True)
     mbtiList = df.columns
